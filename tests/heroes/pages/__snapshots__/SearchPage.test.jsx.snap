@@ -1,0 +1,569 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre SearchPage.jsx debe de mostrarse correctamente con valores por defecto 1`] = `
+<div>
+  <h1>
+    Search
+  </h1>
+  <hr />
+  <div
+    class="row"
+  >
+    <div
+      class="col-5"
+    >
+      <form
+        class="form-inline mt-2"
+      >
+        <input
+          autocomplete="off"
+          class="form-control"
+          name="searchText"
+          placeholder="Search"
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-outline-success mt-2"
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      class="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        class="alert alert-primary "
+      >
+        Search a hero
+      </div>
+      <div
+        class="alert alert-danger d-none"
+      >
+        No results for 
+        <b />
+      </div>
+      <div
+        class="d-none"
+      >
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Batman"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/dc-batman.jpg"
+          />
+          <h3>
+            Batman
+          </h3>
+          <h5>
+            Bruce Wayne
+          </h5>
+          <h5 />
+          <p>
+            Detective Comics #27
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/dc-batman"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Superman"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/dc-superman.jpg"
+          />
+          <h3>
+            Superman
+          </h3>
+          <h5>
+            Kal-El
+          </h5>
+          <h5 />
+          <p>
+            Action Comics #1
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/dc-superman"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Flash"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/dc-flash.jpg"
+          />
+          <h3>
+            Flash
+          </h3>
+          <h5>
+            Jay Garrick
+          </h5>
+          <h5>
+            Jay Garrick, Barry Allen, Wally West, Bart Allen
+          </h5>
+          <p>
+            Flash Comics #1
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/dc-flash"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Green Lantern"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/dc-green.jpg"
+          />
+          <h3>
+            Green Lantern
+          </h3>
+          <h5>
+            Alan Scott
+          </h5>
+          <h5>
+            Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz
+          </h5>
+          <p>
+            All-American Comics #16
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/dc-green"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Green Arrow"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/dc-arrow.jpg"
+          />
+          <h3>
+            Green Arrow
+          </h3>
+          <h5>
+            Oliver Queen
+          </h5>
+          <h5 />
+          <p>
+            More Fun Comics #73
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/dc-arrow"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Wonder Woman"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/dc-wonder.jpg"
+          />
+          <h3>
+            Wonder Woman
+          </h3>
+          <h5>
+            Princess Diana
+          </h5>
+          <h5 />
+          <p>
+            All Star Comics #8
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/dc-wonder"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Martian Manhunter"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/dc-martian.jpg"
+          />
+          <h3>
+            Martian Manhunter
+          </h3>
+          <h5>
+            J'onn J'onzz
+          </h5>
+          <h5>
+            Martian Manhunter
+          </h5>
+          <p>
+            Detective Comics #225
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/dc-martian"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Robin/Nightwing"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/dc-robin.jpg"
+          />
+          <h3>
+            Robin/Nightwing
+          </h3>
+          <h5>
+            Dick Grayson
+          </h5>
+          <h5 />
+          <p>
+            Detective Comics #38
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/dc-robin"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Blue Beetle"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/dc-blue.jpg"
+          />
+          <h3>
+            Blue Beetle
+          </h3>
+          <h5>
+            Dan Garret
+          </h5>
+          <h5>
+            Dan Garret, Ted Kord, Jaime Reyes
+          </h5>
+          <p>
+            Mystery Men Comics #1
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/dc-blue"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Black Canary"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/dc-black.jpg"
+          />
+          <h3>
+            Black Canary
+          </h3>
+          <h5>
+            Dinah Drake
+          </h5>
+          <h5>
+            Dinah Drake, Dinah Lance
+          </h5>
+          <p>
+            Flash Comics #86
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/dc-black"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Spider Man"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/marvel-spider.jpg"
+          />
+          <h3>
+            Spider Man
+          </h3>
+          <h5>
+            Peter Parker
+          </h5>
+          <h5 />
+          <p>
+            Amazing Fantasy #15
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/marvel-spider"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Captain America"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/marvel-captain.jpg"
+          />
+          <h3>
+            Captain America
+          </h3>
+          <h5>
+            Steve Rogers
+          </h5>
+          <h5 />
+          <p>
+            Captain America Comics #1
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/marvel-captain"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Iron Man"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/marvel-iron.jpg"
+          />
+          <h3>
+            Iron Man
+          </h3>
+          <h5>
+            Tony Stark
+          </h5>
+          <h5 />
+          <p>
+            Tales of Suspense #39
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/marvel-iron"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Thor"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/marvel-thor.jpg"
+          />
+          <h3>
+            Thor
+          </h3>
+          <h5>
+            Thor Odinson
+          </h5>
+          <h5 />
+          <p>
+            Journey into Myster #83
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/marvel-thor"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Hulk"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/marvel-hulk.jpg"
+          />
+          <h3>
+            Hulk
+          </h3>
+          <h5>
+            Bruce Banner
+          </h5>
+          <h5 />
+          <p>
+            The Incredible Hulk #1
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/marvel-hulk"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Wolverine"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/marvel-wolverine.jpg"
+          />
+          <h3>
+            Wolverine
+          </h3>
+          <h5>
+            James Howlett
+          </h5>
+          <h5 />
+          <p>
+            The Incredible Hulk #180
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/marvel-wolverine"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Daredevil"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/marvel-daredevil.jpg"
+          />
+          <h3>
+            Daredevil
+          </h3>
+          <h5>
+            Matthew Michael Murdock
+          </h5>
+          <h5 />
+          <p>
+            Daredevil #1
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/marvel-daredevil"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Hawkeye"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/marvel-hawkeye.jpg"
+          />
+          <h3>
+            Hawkeye
+          </h3>
+          <h5>
+            Clinton Francis Barton
+          </h5>
+          <h5 />
+          <p>
+            Tales of Suspense #57
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/marvel-hawkeye"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Cyclops"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/marvel-cyclops.jpg"
+          />
+          <h3>
+            Cyclops
+          </h3>
+          <h5>
+            Scott Summers
+          </h5>
+          <h5 />
+          <p>
+            X-Men #1
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/marvel-cyclops"
+          >
+            Más información...
+          </a>
+        </div>
+        <div
+          class="cardBox card p-2 mb-2"
+        >
+          <img
+            alt="Silver Surfer"
+            class="animate__animated animate__fadeIn imgCard mx-auto"
+            src="heroes/marvel-silver.jpg"
+          />
+          <h3>
+            Silver Surfer
+          </h3>
+          <h5>
+            Norrin Radd
+          </h5>
+          <h5 />
+          <p>
+            The Fantastic Four #48
+          </p>
+          <a
+            class="btn btn-secondary mt-auto"
+            href="/hero/marvel-silver"
+          >
+            Más información...
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
